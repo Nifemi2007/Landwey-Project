@@ -92,7 +92,7 @@ li a:hover {
 button {
   color: white;
   background-color: orangered;
-  transition: 1s;
+  transition: 0.9s;
 }
 
 button:hover {
@@ -175,22 +175,31 @@ nav button {
   border-radius: 5px;
   display: flex;
   align-items: center;
-  justify-content: center;
+  justify-content: space-between;
+  padding-left: 15px;
+}
+
+.search i {
+  color: orangered;
+}
+
+::-webkit-search-cancel-button {
+  color: orangered;
 }
 
 .search input {
   height: 100%;
-  width: 70%;
+  width: 60%;
   border: none;
   background-color: transparent;
   outline: none;
-  padding-left: 15px;
+  padding: 0px 10px;
   font-size: 15px;
 }
 
 ::placeholder {
   font-size: 14px;
-  text-align: center;
+  /* text-align: center; */
   color: #a1a1a1;
 }
 
@@ -269,7 +278,7 @@ h2 > span {
   justify-content: center;
   align-items: center;
   height: 40px;
-  margin-top: 80px;
+  margin-top: 100px;
   gap: 200px;
   transform: scale(0.7);
   transition: 1s;

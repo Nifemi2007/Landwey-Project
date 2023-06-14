@@ -1,0 +1,17 @@
+* {
+  margin: 0;
+  padding: 0;
+}
+
+body {
+  background-image: linear-gradient(
+      to right,
+      rgba(0, 0, 0, 0.6),
+      rgba(0, 0, 0, 0.6)
+    ),
+    url(./img/image_search_1685021766708.png);
+  background-repeat: no-repeat;
+
+  background-size: cover;
+  background-position: 0;
+}
